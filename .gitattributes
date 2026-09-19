@@ -1,0 +1,2 @@
+# LF everywhere so scripts and Unity .meta/.asmdef files diff cleanly across platforms.
+* text=auto eol=lf

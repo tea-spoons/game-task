@@ -1,0 +1,25 @@
+{
+  "name": "TeaSpoons.GameTask.LocalizerIntegration",
+  "rootNamespace": "TeaSpoons.GameTask",
+  "references": [
+    "TeaSpoons.GameTask",
+    "TeaSpoons.Localizer"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "TEASPOONS_LOCALIZER"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.tea-spoons.localizer",
+      "expression": "0.1.0",
+      "define": "TEASPOONS_LOCALIZER"
+    }
+  ],
+  "noEngineReferences": false
+}

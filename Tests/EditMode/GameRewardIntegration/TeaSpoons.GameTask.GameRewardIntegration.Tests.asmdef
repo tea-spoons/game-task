@@ -1,0 +1,34 @@
+{
+  "name": "TeaSpoons.GameTask.GameRewardIntegration.Tests",
+  "rootNamespace": "TeaSpoons.GameTask.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "TeaSpoons.GameTask",
+    "TeaSpoons.GameTask.GameRewardIntegration",
+    "TeaSpoons.GameTask.Tests",
+    "TeaSpoons.GameReward"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS",
+    "TEASPOONS_GAME_REWARD"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.tea-spoons.game-reward",
+      "expression": "0.1.0",
+      "define": "TEASPOONS_GAME_REWARD"
+    }
+  ],
+  "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+name: Release
+
+# Run manually after bumping "version" in package.json. Creates the tag and a GitHub release with a package tarball.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    uses: tea-spoons/unity-ci-kit/.github/workflows/release-package.yml@v0
+    with:
+      package-path: .
+    permissions:
+      contents: write

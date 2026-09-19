@@ -1,0 +1,23 @@
+{
+  "name": "com.tea-spoons.game-task",
+  "version": "0.1.0",
+  "displayName": "Game Task",
+  "description": "Tasks and quests as data: progress reported by action key, prerequisites, expiry, claiming, save and restore. Optional integrations hand out Game Reward rewards and localize text with Localizer.",
+  "unity": "6000.3",
+  "documentationUrl": "https://github.com/tea-spoons/game-task#readme",
+  "changelogUrl": "https://github.com/tea-spoons/game-task/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/tea-spoons/game-task/blob/main/LICENSE.md",
+  "license": "MIT",
+  "keywords": [
+    "tasks",
+    "quests",
+    "missions",
+    "achievements",
+    "game-systems"
+  ],
+  "author": {
+    "name": "Muhammad Tarek Abdou",
+    "email": "muhammadtarekabdou@gmail.com",
+    "url": "https://github.com/MuhammadTarek0"
+  }
+}

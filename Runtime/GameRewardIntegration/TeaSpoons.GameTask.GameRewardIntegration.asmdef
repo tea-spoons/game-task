@@ -1,0 +1,25 @@
+{
+  "name": "TeaSpoons.GameTask.GameRewardIntegration",
+  "rootNamespace": "TeaSpoons.GameTask",
+  "references": [
+    "TeaSpoons.GameTask",
+    "TeaSpoons.GameReward"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "TEASPOONS_GAME_REWARD"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.tea-spoons.game-reward",
+      "expression": "0.1.0",
+      "define": "TEASPOONS_GAME_REWARD"
+    }
+  ],
+  "noEngineReferences": false
+}
