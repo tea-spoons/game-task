@@ -9,7 +9,7 @@ any employer's or other project's code.
 
 ## Planned changes
 
-- [ ] Tag and publish `v0.1.0` with the Release workflow.
+- [x] Tag and publish `v0.1.0` with the Release workflow.
 - [ ] Repeating tasks (daily and weekly resets) with a reset time in the definition.
 - [ ] Tasks with several objectives that all have to be met.
 - [ ] A drawer or editor window to author `TaskSet` assets more comfortably, and to check prerequisites.
