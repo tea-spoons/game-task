@@ -95,6 +95,7 @@ These packages are optional. When your project has them, they get extra features
 |---|---|
 | [Game Reward](https://github.com/tea-spoons/game-reward) (0.1.0+) | `TaskRewards`: a task names its reward with `rewardKey`, and `TryClaim(taskId, out result)` grants that reward through your `RewardService` and claims the task. If the reward cannot be granted the task stays completed, so the player can claim again. |
 | [Localizer](https://github.com/tea-spoons/localizer) (0.1.0+) | `GetTitle` and `GetDescription`: texts under `task.{id}.title` and `task.{id}.description`, with `{progress}`, `{target}`, `{remaining}` and the task's required arguments filled in. Plural forms (`...description.one`, `...description.other`) are chosen by the target. |
+| [Static Data](https://github.com/tea-spoons/static-data) (0.1.0+) | `TaskSet` inherits from `StaticDataObject` instead of `ScriptableObject`, so a set gets an `Id` and can be indexed by a `StaticDataLibrary` like the rest of your static data. No API change either way - `Tasks`, `SetTasks` and `CreateTracker` work the same. |
 
 ```csharp
 var taskRewards = new TaskRewards(tracker, rewardService, TaskRewards.LookupByName(rewardAssets));

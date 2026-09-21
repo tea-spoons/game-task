@@ -2,12 +2,19 @@ namespace TeaSpoons.GameTask
 {
     using System.Collections.Generic;
     using UnityEngine;
+#if TEASPOONS_STATIC_DATA
+    using TeaSpoons.StaticData;
+#endif
 
     /// <summary>
     /// A list of task definitions as an asset, so tasks can be authored in the Inspector.
     /// </summary>
     [CreateAssetMenu(menuName = "TeaSpoons/Game Task/Task Set", fileName = "Task Set")]
+#if TEASPOONS_STATIC_DATA
+    public class TaskSet : StaticDataObject
+#else
     public class TaskSet : ScriptableObject
+#endif
     {
         [SerializeField]
         private List<TaskDefinition> tasks = new();
