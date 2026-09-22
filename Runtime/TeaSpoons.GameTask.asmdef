@@ -1,7 +1,9 @@
 {
   "name": "TeaSpoons.GameTask",
   "rootNamespace": "TeaSpoons.GameTask",
-  "references": [],
+  "references": [
+    "TeaSpoons.StaticData"
+  ],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,
@@ -9,6 +11,12 @@
   "precompiledReferences": [],
   "autoReferenced": true,
   "defineConstraints": [],
-  "versionDefines": [],
+  "versionDefines": [
+    {
+      "name": "com.tea-spoons.static-data",
+      "expression": "0.1.0",
+      "define": "TEASPOONS_STATIC_DATA"
+    }
+  ],
   "noEngineReferences": false
 }
